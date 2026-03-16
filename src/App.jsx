@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import UseScrollToTop from "../src/components/useScrollToTop.jsx"
+import UseScrollToTop from "./components/useScrollToTop";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import PropertyDetail from "./pages/PropertyDetail";
