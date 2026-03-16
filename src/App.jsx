@@ -1,18 +1,18 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import UseScrollToTop from "./components/useScrollToTop";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import PropertyDetail from "./pages/PropertyDetail";
-import Sales from "./pages/Sales";
-import Rentals from "./pages/Rentals";
-import Contact from "./pages/Contact";
+import ScrollToTop from "./components/ScrollToTop.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Home from "./pages/Home.jsx";
+import PropertyDetail from "./pages/PropertyDetail.jsx";
+import Sales from "./pages/Sales.jsx";
+import Rentals from "./pages/Rentals.jsx";
+import Contact from "./pages/Contact.jsx";
 
 export default function App() {
   return (
     <Router>
 
-      <UseScrollToTop />
+      <ScrollToTop />
       <div className="min-h-screen bg-white font-sans selection:bg-slate-950 selection:text-white">
         <Toaster 
           position="bottom-right"
